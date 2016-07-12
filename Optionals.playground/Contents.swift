@@ -7,7 +7,7 @@ brokenFirstItem(fruits)  // Works!
 fruits = []
 // Uncomment the next line to see the problem.
 // You will get an "index out of range" error.
-//brokenFirstItem(fruits)  // Breaks :-(
+brokenFirstItem(fruits)  // Breaks :-(
 
 
 
@@ -46,5 +46,5 @@ func produceFullName(withFirstName firstName: String, middleName: String?, lastN
     return name
 }
 
-produceFullName(withFirstName: "Jon", middleName: "Bon", lastName: "Jovi")
-produceFullName(withFirstName: "Mary", middleName: nil, lastName: "Doe")
+produceFullName(withFirstName: "John", middleName: "Jacob", lastName: "Jingleheimer Schmidt")
+produceFullName(withFirstName: "Ethan", middleName: nil, lastName: "Song")
